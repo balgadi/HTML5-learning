@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign UP</title>
+</head>
+<body>
+    <h1>100 Days Of Code Registration</h1>
+    <hr>
+    
+    
+    <form action="/Home/Register">
+       <h3>Account Info</h3>
+        <p>
+            Username : <input type="text" placeholder="enter username" name="username" required>
+        </p>
+        <p>
+            E-mail : <input type= "email" placeholder="enter e-mail" name="email" required>
+        </p>
+        <p>
+            Password: <input type= "password" placeholder="enter password" name="password" required>
+        </p>
+        
+       <h3>Personal Info</h3>
+        <p>
+            Name : <input type="text" name="name" required>
+        </p>
+        <p>
+            Surname: <input type= "text" name="Surname" required>
+        </p>
+        <p>
+            City : 
+            <select name="city">
+               <option>Kocaeli</option>
+               <option>Denizli</option>
+               <option>Aydın</option>
+               <option>Ottawa</option>
+            </select>
+        </p>
+        
+        <p>
+            Sex : <input type= "radio" name="sex" > Male
+                      <input type= "radio" name="sex" > Female
+        </p>
+        <p>
+            Hobbies : <input type="checkbox"> Cinema
+                          <input type="checkbox"> Travel
+                          <input type="checkbox"> Music
+                          <input type="checkbox"> Bool
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
